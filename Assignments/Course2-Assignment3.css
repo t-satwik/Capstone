@@ -1,0 +1,113 @@
+body{
+	padding: 1%;
+	margin: 0% 2%;
+}
+
+header{
+	background-color: #A9A9A9;
+	background-image: url("D:/Programming/HTML/assignment-1 2/images/flywheel.jpg");
+	padding:2%;
+}
+
+nav a{
+	display: inline-block;
+	margin:0 6%;
+	padding: 3%;
+	border-radius: 25px;
+	text-decoration:none;
+	background-color:  #1C262C;
+	color:#DBE3E5;
+}
+
+table{
+	font-family: "Times New Roman", Helvetica, arial;
+	font-size:large;
+	font-weight: bold;
+	font-line-height:300%;
+	width:85%;
+	margin:5% auto;
+
+}
+
+th{
+	background-image: linear-gradient(#EBF5FB, #85C1E9); ?/* here image is used but actually it a gradient background color */
+	padding:8px;
+	
+	border: 2px solid #1B4F72;
+
+	border-radius:2px 2px 0px 0px;
+	
+	border-bottom-width: 5px;
+	
+	font-size:x-large;
+	text-align: center; /* i am using center as default and changing it to left for the first child of table heading */
+	color:#1B4F72;
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+tr{
+	opacity:.8;
+	text-align: center;
+
+}
+tr:hover{
+	opacity:1;
+}
+
+td:first-child, th:first-child{
+	text-align: left;
+}
+
+td{
+	padding:5px;
+	color:#1B4F72;
+	background-color: #85C1E9;
+	border-radius:2px;
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+.active{
+	background-color: #DBE3E5;
+	color:#1C262C;
+	border: 8px solid #1C262C;
+}
+
+.left{
+	display:inline-block;
+	width:30%;
+	background-color: #1C262C;
+	border-radius: 25px;
+  	border: 2px solid #DBE3E5;
+  	float:left;
+  	margin-right:2%;
+
+}
+
+.right{
+	display:inline-block;
+	float:left;
+	width:65%;
+}
+
+img{
+	margin: 10%;
+	display:inline-block;
+	width:80%;
+
+}
+
+h1{
+	text-align:center;
+	color:#DBE3E5;
+	text-transform:uppercase; 
+} 
+
+h2{
+	color:#1C262C;
+	text-transform:uppercase; 
+}
+
+
+
+
+

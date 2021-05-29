@@ -1,0 +1,68 @@
+body{
+	padding: 1%;
+	margin: 0% 2%;
+}
+
+header{
+	background-color: #A9A9A9;
+	background-image: url("D:/Programming/HTML/assignment-1 2/images/flywheel.jpg");
+	padding:2%;
+}
+
+nav a{
+	display: inline-block;
+	margin:0 6%;
+	padding: 3%;
+	border-radius: 25px;
+	text-decoration:none;
+	background-color:  #1C262C;
+	color:#DBE3E5;
+}
+
+.active{
+	background-color: #DBE3E5;
+	color:#1C262C;
+	border: 8px solid #1C262C;
+}
+
+
+
+.left{
+	display:inline-block;
+	width:30%;
+	background-color: #1C262C;
+	border-radius: 25px;
+  	border: 2px solid #DBE3E5;
+  	float:left;
+  	margin-right:2%;
+
+}
+
+.right{
+	display:inline-block;
+	float:left;
+	width:65%;
+}
+
+img{
+	margin: 10%;
+	display:inline-block;
+	width:80%;
+
+}
+
+h1{
+	text-align:center;
+	color:#DBE3E5;
+	text-transform:uppercase; 
+} 
+
+h2{
+	color:#1C262C;
+	text-transform:uppercase; 
+}
+
+
+
+
+
